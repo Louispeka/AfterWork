@@ -269,10 +269,10 @@ Une infrastructure technique de base doit être en place, incluant les serveurs 
 
 Les exigences détaillées du projet doivent être bien définies et documentées avant de commencer le développement, pour éviter les retards et les malentendus.
 
-////////////////////// //// //// //// //// //// //// //// ????? //// //// //// //// //// //// //// //// //// //// ////
+////////////////////// //// //// //// //// //// //// //// ????? //// //// //// //// ////
 **Accès aux Données des Bars Partenaires :**
 Un accord avec les bars partenaires pour fournir régulièrement les informations sur les bières disponibles, les horaires, et l’état d’ouverture est essentiel pour que le site soit fonctionnel.
-//////////////////////// //// //// //// //// //// //// //// ????? //// //// //// //// //// //// //// //// //// //// //// //// ////
+//////////////////////// //// //// //// //// //// //// //// ????? //// //// //// //// 
 
 
 
@@ -280,11 +280,11 @@ Un accord avec les bars partenaires pour fournir régulièrement les information
 
 Tous les outils de développement nécessaires (environnements de développement intégrés, licences logicielles, accès aux APIs tierces) doivent être acquis et configurés.
 
-//////////////////////// //// //// //// //// //// //// //// ????? //// //// //// //// //// //// //// //// //// //// //// //// ////
+//////////////////////// //// //// //// //// //// //// //// ????? //// //// //// //// 
 **Conformité aux Régulations :**
 
 Avant de traiter les données des utilisateurs, le site doit être conforme aux régulations en matière de protection des données (ex. RGPD), avec les politiques de confidentialité et les mécanismes de consentement en place.
-//////////////////////// //// //// //// //// //// //// //// ????? //// //// //// //// //// //// //// //// //// //// //// //// ////
+//////////////////////// //// //// //// //// //// //// //// ????? //// //// //// //// ////
 
 == Dependencies 
 
@@ -353,7 +353,7 @@ Les utilisateurs doivent pouvoir créer un compte, se connecter, et gérer leurs
 
 Le site doit permettre aux utilisateurs de visualiser et de gérer leurs réservations.
 
-  **Système de Notification :**
+**Système de Notification :**
 
 Le site doit pouvoir envoyer des notifications aux utilisateurs concernant les confirmations de réservation, les changements d’horaires des bars, ou les nouvelles offres disponibles.
 
