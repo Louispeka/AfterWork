@@ -135,7 +135,7 @@ Configuration de l'environnement de production (hébergement, sécurité).
 
 Vérification finale de l'application sur l'environnement de staging.
 
- **Déploiement Initial :**
+**Déploiement Initial :**
 
 Mise en ligne du site web.
 
@@ -152,7 +152,7 @@ Les parties prenantes sont les individus, groupes ou organisations ayant un int�
 
 === L'École
 
- **Administration de l'École :**
+ - **Administration de l'École :**
 
     - **Rôle :** Principal sponsor du projet, fournissant le financement et définissant les objectifs stratégiques.
 
@@ -270,13 +270,8 @@ Une infrastructure technique de base doit être en place, incluant les serveurs 
 Les exigences détaillées du projet doivent être bien définies et documentées avant de commencer le développement, pour éviter les retards et les malentendus.
 
 ////////////////////// //// //// //// //// //// //// //// ????? //// //// //// //// //// //// //// //// //// //// ////
-
-
 **Accès aux Données des Bars Partenaires :**
-
-
 Un accord avec les bars partenaires pour fournir régulièrement les informations sur les bières disponibles, les horaires, et l’état d’ouverture est essentiel pour que le site soit fonctionnel.
-
 //////////////////////// //// //// //// //// //// //// //// ????? //// //// //// //// //// //// //// //// //// //// //// //// ////
 
 
@@ -286,11 +281,9 @@ Un accord avec les bars partenaires pour fournir régulièrement les information
 Tous les outils de développement nécessaires (environnements de développement intégrés, licences logicielles, accès aux APIs tierces) doivent être acquis et configurés.
 
 //////////////////////// //// //// //// //// //// //// //// ????? //// //// //// //// //// //// //// //// //// //// //// //// ////
-
 **Conformité aux Régulations :**
 
 Avant de traiter les données des utilisateurs, le site doit être conforme aux régulations en matière de protection des données (ex. RGPD), avec les politiques de confidentialité et les mécanismes de consentement en place.
-
 //////////////////////// //// //// //// //// //// //// //// ????? //// //// //// //// //// //// //// //// //// //// //// //// ////
 
 == Dependencies 
