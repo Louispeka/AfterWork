@@ -13,47 +13,38 @@ endif::[]
 
 == Introduction
 
-Dans le cadre de l'amélioration des services offerts aux étudiants et au personnel de notre école, nous proposons la création d'un site web innovant dédié au principe d’afterwork passant par la recherche d’un lieu conviviable pour travailler, à la découverte des bières disponibles dans les établissement aux alentours pour travailler dans les meilleures conditions. 
+Dans le cadre de l'amélioration des services offerts aux étudiants et au personnel de notre école, nous proposons la création d'un site web innovant dédié au principe d’afterwork passant par la recherche d’un lieu conviviable pour travailler, à la découverte des bières disponibles dans les établissements aux alentours pour travailler dans les meilleures conditions. 
 
 Ce projet vise à simplifier l'expérience utilisateur en centralisant plusieurs fonctionnalités clés dans une interface conviviale et intuitive.
 
-Le site permettra aux utilisateurs de consulter en temps réel les bières disponibles dans les différents bars affiliés, de réserver des tables à l'avance (next features ??), et de vérifier l'ouverture de ces établissements. Cette plateforme renforcera la visibilité des bars et encouragera les interactions sociales au sein de notre communauté.
+Le site permettra aux utilisateurs de consulter en temps réel les bières disponibles dans les différents bars affiliés, de réserver des tables à l'avance, et de vérifier l'ouverture de ces établissements. Cette plateforme renforcera la visibilité des bars et encouragera les interactions sociales au sein de notre communauté.
 
 Avec l'essor des technologies numériques et la demande croissante pour des solutions en ligne pratiques, ce projet se positionne comme une réponse moderne et efficace aux besoins de notre école. Il représente non seulement un avantage pratique pour les utilisateurs, mais aussi une opportunité de renforcer les liens entre les étudiants, le personnel et les établissements locaux, tout en promouvant une culture conviviale et collaborative.
 
 
 
-=== Objective
+=== Objectif
 
 L'objectif principal de ce projet est de développer une plateforme web dédiée à la communauté de notre école, facilitant la mise en place d’Afterwork en passant par une gestion simplifiée et centralisée des informations des bars locaux. Cette plateforme vise à offrir une expérience utilisateur fluide et intuitive en permettant aux étudiants et au personnel de faciliter la préparation d’afterwork entre eux.
 
 
 == Scope 
 
-Le scope du projet englobe l'ensemble des fonctionnalités, des ressources, et des contraintes nécessaires pour la conception, le développement, et le déploiement du site web dédié à la gestion d’afterwork aux différents bars locaux et à la consultation des bières disponibles pour la communauté de l'école. Ce projet comprend les éléments suivants :
+Le scope du projet englobe l'ensemble des fonctionnalités, des ressources, et des contraintes nécessaires pour la conception, le développement, et le déploiement du site web dédié à la gestion d’afterwork aux différents bars locaux, à la consultation des bières disponibles et la reservation d'afterwork pour la communauté de l'école. Ce projet comprend les éléments suivants :
 
 === Catalogue de Bières 
 
-Affichage d'une liste actualisée des bières disponibles dans chaque bar partenaire, avec des détails tels que le type, le degré d'alcool, la brasserie, et les avis des utilisateurs.
+Affichage d'une liste actualisée des bières disponibles dans chaque bar partenaire, avec des détails tels que le type, le degré d'alcool, la brasserie.
 
 === Vérification de l'Ouverture des Bars
 
-Fonctionnalité permettant de consulter en temps réel l'état d'ouverture des bars (ouvert/fermé) 
+Fonctionnalité permettant de consulter en temps réel l'état d'ouverture des bars (ouvert/fermé).
 
-=== Recherche et Filtres
 
-Outils de recherche et de filtrage pour trouver rapidement un bar ou une bière spécifique en fonction de critères tels que la localisation, le type de bière, etc.
-
-=== Carte Interactive 
-
-Intégration d'une carte interactive affichant les bars partenaires, permettant aux utilisateurs de voir leur emplacement géographique et d'accéder rapidement aux informations pertinentes.
 
 === Système de Réservation
 
-Interface permettant aux utilisateurs de réserver des tables dans les bars disponibles, avec une gestion des créneaux horaires et des confirmations par email ou notification.
-
-Ce dernier point est une idée plus complete pour un prochain update, pour le moment seul l'option reservation via telephone sera disponible ( à voir ).
-
+Interface permettant aux utilisateurs de réserver des tables dans les bars disponibles, avec une gestion des créneaux horaires et des confirmations sur la plateforme.
 
 == Workflow
 
@@ -75,7 +66,7 @@ Rédaction des spécifications techniques et fonctionnelles détaillées.
 
 **Conception de l'Architecture :**
 
-Définition de l'architecture du système (choix des technologies, structure des bases de données, schéma d'API).
+Définition de l'architecture du système (choix des technologies, structure des bases de données).
 
 Conception de l'interface utilisateur.
 
@@ -97,21 +88,15 @@ Planification des modules de backend et des points d'intégration si besoin et t
 
 **Développement Backend :**
 
-Mise en place du serveur, création des bases de données, et développement des API.
+Mise en place du serveur, création des bases de données, et développement.
 
-Implémentation des fonctionnalités principales comme la gestion des réservations(?), le catalogue de bières, et le système d'authentification(?).
+Implémentation des fonctionnalités principales comme la gestion des réservationss, le catalogue de bières, et le système d'authentification.
 
 **Développement Frontend :**
 
 Création de l'interface utilisateur en intégrant les maquettes validées.
 
 Développement des composants interactifs (recherche, filtres, cartes).
-
-**Intégration :**
-
-Connexion du frontend au backend via les API (si temps et besoin).
-
-Intégration des services externes (Google Maps, notifications(?)).
 
 === Phase de Tests
 
@@ -121,7 +106,7 @@ Test des composants individuels (frontend et backend) pour vérifier leur bon fo
 
 **Tests d'Intégration :**
 
-Validation du bon fonctionnement des interactions entre les différentes parties du système (API, base de données, frontend).
+Validation du bon fonctionnement des interactions entre les différentes parties du système (base de données, frontend).
   
 **Tests Fonctionnels :**
 
@@ -176,7 +161,7 @@ Les parties prenantes sont les individus, groupes ou organisations ayant un int�
 
   - **Propriétaires et Gérants des Bars :**
 
-    - **Rôle :** Fournir les informations sur les bières disponibles, les horaires d'ouverture, et gérer les réservations reçues via le site(ultérieurement).
+    - **Rôle :** Fournir les informations sur les bières disponibles, les horaires d'ouverture, et gérer les réservations reçues via le site.
 
     - **Intérêt :** Augmenter la visibilité de leur établissement, attirer plus de clients, et optimiser la gestion des réservations.
 
@@ -186,7 +171,7 @@ Les parties prenantes sont les individus, groupes ou organisations ayant un int�
 
     - **Rôle :** Responsable de la gestion globale du projet, de la planification à la livraison.
 
-    - **Intérêt :** Assurer que le projet est livré dans les délais, respecte le budget, et répond aux exigences de qualité.
+    - **Intérêt :** Assurer que le projet est livré dans les délais et répond aux exigences de qualité.
 
   - **Développeurs (Frontend et Backend) :**
 
@@ -208,15 +193,6 @@ Les parties prenantes sont les individus, groupes ou organisations ayant un int�
 
 === Fournisseurs de Services Tiers
 
- /////////////////// //// //// //// //// IDEE //// //// //// //// //// //// //// //// //// //// ////
-
-  - **Plateformes de Paiement (si applicable) :**
-
-    - **Rôle :** Gérer les transactions en ligne (par exemple, prépaiement pour des réservations).
-
-    - **Intérêt :** Offrir un service de paiement sécurisé et fiable pour les utilisateurs du site.
-
-/////////////////// //// //// //// //// IDEE //// //// //// //// //// //// //// //// //// //// ////
 
   - **Services d'Hébergement Web :**
 
@@ -238,7 +214,7 @@ Ces parties prenantes joueront toutes un rôle clé dans le succès du projet, n
 
 Les livrables sont les résultats concrets produits au cours du projet, destinés à démontrer la progression et la qualité du travail réalisé. Pour le projet de création du site web AfterWork, les principaux livrables sont les suivants :
 
-=== Functional and technical specification 
+=== Specification fonctionnelle et technique
 
 Document listant les exigences fonctionnelles et techniques du site, incluant les cas d'utilisation et les besoins des utilisateurs.
 
@@ -280,11 +256,10 @@ Un accord avec les bars partenaires pour fournir régulièrement les information
 
 Tous les outils de développement nécessaires (environnements de développement intégrés, licences logicielles, accès aux APIs tierces) doivent être acquis et configurés.
 
-//////////////////////// //// //// //// //// //// //// //// ????? //// //// //// //// 
+
 **Conformité aux Régulations :**
 
 Avant de traiter les données des utilisateurs, le site doit être conforme aux régulations en matière de protection des données (ex. RGPD), avec les politiques de confidentialité et les mécanismes de consentement en place.
-//////////////////////// //// //// //// //// //// //// //// ????? //// //// //// //// ////
 
 == Dependencies 
 
@@ -292,9 +267,6 @@ Avant de traiter les données des utilisateurs, le site doit être conforme aux 
 
 La disponibilité et l'exactitude des données fournies par les bars (listes de bières, horaires, etc.) sont critiques pour le bon fonctionnement du site. Des retards ou des erreurs de leur part peuvent affecter la qualité de l'expérience utilisateur.
 
-**Services Tiers :**
-
-Intégration avec des services externes tels que Google Maps pour la localisation des bars, les plateformes de paiement (si applicable), et les systèmes de notification. La disponibilité et la performance de ces services sont hors du contrôle direct de l'équipe de développement et peuvent impacter le projet.
 
 **Infrastructure d'Hébergement :**
 
@@ -303,14 +275,11 @@ Dépendance envers le fournisseur d'hébergement choisi pour garantir la disponi
 
 **Outils et Technologies de Développement :**
 
-La dépendance envers les technologies choisies pour le frontend (React, Vue.js), le backend (Node.js, Django), et la base de données (PostgreSQL, MongoDB). Les bugs ou les limitations dans ces technologies peuvent nécessiter des ajustements ou des solutions de contournement.
+La dépendance envers les technologies choisies pour le frontend, le backend, et la base de données. Les bugs ou les limitations dans ces technologies peuvent nécessiter des ajustements ou des solutions de contournement.
 
 **Équipe de Développement :**
 
-Disponibilité et compétences de l'équipe de développement. Des absences ou des manques de compétences spécifiques peuvent ralentir le projet ou nécessiter l'embauche de personnel supplémentaire.
-
-
-
+Disponibilité et compétences de l'équipe de développement. Des absences ou des manques de compétences spécifiques peuvent ralentir le projet.
 
 
 
@@ -326,44 +295,32 @@ Le site doit permettre aux utilisateurs de consulter la liste des bières dispon
 
 **Système de Réservation :**
 
-Les utilisateurs doivent pouvoir réserver des tables dans les bars partenaires via le site, en sélectionnant le bar, la date, l’heure, et le nombre de places.FEATURE à VOIR
+Les utilisateurs doivent pouvoir réserver des tables dans les bars partenaires via le site, en sélectionnant le bar, la date, l’heure, et le nombre de places.
 
-Les utilisateurs doivent recevoir une confirmation de leur réservation par email ou notification. FEATURE à VOIR
+Les utilisateurs doivent recevoir une confirmation de leur réservation sur la plateforme
 
-Possibilité d'appeler pour reserver manuellement.
+
 
 
 **Vérification des Horaires d'Ouverture :**
 
 Le site doit permettre aux utilisateurs de vérifier en temps réel si un bar est ouvert ou fermé, en fonction des horaires d'ouverture renseignés par le bar.
 
-**Recherche et Filtrage :**
 
-Les utilisateurs doivent pouvoir rechercher un bar ou une bière spécifique en utilisant des critères tels que la localisation, le type de bière, ou le nom du bar.
-
-Les utilisateurs doivent pouvoir filtrer les résultats en fonction de préférences telles que le type de bière, la popularité, ou les avis des utilisateurs.
-
-**Carte Interactive :**
-
-Le site doit intégrer une carte interactive permettant aux utilisateurs de visualiser la localisation des bars partenaires et d'accéder rapidement aux informations les concernant.
 
 **Authentification et Gestion des Comptes :**
 
-Les utilisateurs doivent pouvoir créer un compte, se connecter, et gérer leurs informations personnelles (nom, email, mot de passe, préférences).
+Les utilisateurs doivent pouvoir créer un compte, se connecter, et gérer leurs informations personnelles (nom, email, mot de passe).
 
-Le site doit permettre aux utilisateurs de visualiser et de gérer leurs réservations.
+Le site doit permettre aux utilisateurs de visualiser leurs réservations et de pouvoir les supprimer.
 
-**Système de Notification :**
 
-Le site doit pouvoir envoyer des notifications aux utilisateurs concernant les confirmations de réservation, les changements d’horaires des bars, ou les nouvelles offres disponibles.
 
 **Gestion des Bars Partenaires :**
 
 Les administrateurs du site doivent pouvoir ajouter, modifier, ou supprimer des bars partenaires, ainsi que gérer les informations relatives aux bières disponibles et aux horaires d’ouverture.
 
-**Système de Feedback :**
 
-Les utilisateurs doivent pouvoir laisser des avis et des notes sur les bières et les bars, et ces avis doivent être visibles par d'autres utilisateurs.
 
 === Requirements Non Fonctionnels :
 
@@ -371,7 +328,6 @@ Les utilisateurs doivent pouvoir laisser des avis et des notes sur les bières e
 
 Le site doit charger les pages principales (liste des bars, détails des bières, système de réservation) en moins de 2 secondes pour garantir une bonne expérience utilisateur.
 
-§§§§§§§§§ definir la limite user §§§§§§§§§§
 
 **Scalabilité :**
 
@@ -383,7 +339,6 @@ Toutes les communications entre le site et les utilisateurs doivent être crypt�
 
 Les informations sensibles (ex. mots de passe, données personnelles) doivent être stockées de manière sécurisée, avec un chiffrement conforme aux normes de l'industrie.
 
-Le site doit implémenter des mesures de protection contre les attaques courantes (ex. injection SQL, cross-site scripting, etc.).
 
 **Conformité :**
 
@@ -395,15 +350,7 @@ Le site doit être compatible avec les navigateurs web modernes (Chrome, Firefox
 
 Le site doit être responsive, offrant une expérience utilisateur optimale quel que soit l'appareil utilisé.
 
-///////////////////// //// //// //// //// //// //// //// //// //// //// //// //// //// //// //// //// //// ////
 
-**Fiabilité et Disponibilité :**
-
-Le site doit être disponible 24/7 avec un taux de disponibilité minimum de 99,9%.
-
-En cas de panne, le site doit pouvoir être restauré dans un délai maximum de 2 heures.
-
-///////////////////// //// //// //// //// //// //// //// //// //// //// //// //// //// //// //// //// //// ////
 
 **Maintenance et Extensibilité :**
 
@@ -412,3 +359,28 @@ Le code du site doit être bien documenté pour faciliter les futures maintenanc
 La structure du site doit permettre l'ajout facile de nouvelles fonctionnalités ou l’intégration de nouveaux services sans nécessiter une refonte majeure.
 
 Ces exigences fonctionnelles et non fonctionnelles servent de guide pour la conception, le développement, et le déploiement du site, garantissant qu'il répond aux besoins des utilisateurs tout en respectant les standards de qualité et de performance.
+
+
+== Nouvelles fonctionnalités en cours de recherche
+
+=== Recherche et Filtres
+
+Outils de recherche et de filtrage pour trouver rapidement un bar ou une bière spécifique en fonction de critères tels que la localisation, le type de bière, etc.
+
+=== Carte Interactive 
+
+Intégration d'une carte interactive affichant les bars partenaires, permettant aux utilisateurs de voir leur emplacement géographique et d'accéder rapidement aux informations pertinentes.
+
+=== Système de Feedback 
+
+Les utilisateurs doivent pouvoir laisser des avis et des notes sur les bières et les bars, et ces avis doivent être visibles par d'autres utilisateurs.
+
+///////////////////// //// //// //// //// //// //// //// //// //// //// //// //// //// //// //// //// //// ////
+
+=== Fiabilité et Disponibilité
+
+Le site doit être disponible 24/7 avec un taux de disponibilité minimum de 99,9%.
+
+En cas de panne, le site doit pouvoir être restauré dans un délai maximum de 2 heures.
+
+///////////////////// //// //// //// //// //// //// //// //// //// //// //// //// //// //// //// //// //// ////
