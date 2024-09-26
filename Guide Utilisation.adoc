@@ -1,4 +1,3 @@
-
 = Guide Utilisation :
 
 :description: 
@@ -15,120 +14,73 @@ endif::[]
 Un guide d'utilisation sert à aider les utilisateurs à comprendre comment utiliser un produit ou service efficacement. Il fournit des instructions claires et détaillées, réduisant les erreurs et les demandes de support. Il améliore l'expérience utilisateur, favorise l'autonomie, et contribue à la satisfaction et à la fidélité des clients.
 
 == Prerequis
-Avant d'avançer plus loin , veuiller avoir :
-- un accès a internet
-- une machine pouvant exploiter internet : (pc, tablettes et telephone)
-- un compte (nom d'utilisateur, mot de passe) enregistré dans la base de données du site 
 
-[créer un compte]
+Avant d'avancer plus loin , veuillez avoir :
 
-== Accéder au site AfterWork Home
-- Ouvrez votre navigateur internet (Google Chrome, Firefox, Safari, etc.). Dans la barre d'adresse, entrer «http://localhost/afterworkproject/afterwork.php» (pour la version locale après importation de la base de données dans PhpMyAdmin) et appuyez sur "Entrée".
- - Sur la page d'accueil de epsi&wisafterwork, repèrez le bouton "Connexion" ou "Créer un compte
+* un accès a internet
 
-== Commencer la création de compte
--	Cliquez sur "Connexion" si c'est l'option affichée.
--	Ensuite, choisisez "Créer un compte" dans la fenêtre qui apparaît.
-
-== Remplir les informations du compte
-- Formulaire de création : Un formulaire va s'afficher où vous devrais renseigner les informations suivantes :
-	 - Nom complet (Prénom et Nom).
-	- Adresse e-mail (veiller à utiliser une adresse valide pour la confirmation).
-	- Mot de passe (crée un mot de passe sécurisé en combinant des lettres, chiffres et caractères spéciaux).
-- Conditions d’utilisation : Cocher la case pour accepter les conditions générales d’utilisation et la politique de confidentialité du site.
- -Cliquez sur "S'inscrire" ou "Créer un compte" pour valider vos informations.
-
-== Vérification de l'e-mail
- - Une fois les informations soumises, Epsi&WisAfterwork  vous envera  un e-mail de vérification à l'adresse fournie.
- - Ouvrez votre boîte de réception et cherchez le mail de Epsi&Wis (pensez à vérifier dans les spams si vous ne le voyez pas).
- - Cliquez sur le lien de vérification dans cet e-mail pour activer votre compte.
-
-== Connexion sur votre compte
-- Après la validation, retournez sur «www.epsi&wisAfwk.lab»
-- Cliquez sur "Connexion"
-- Saisisez l'adresse e-mail et le mot de passe que vous avez choisis pour pour vous connecter.
+* une machine pouvant exploiter internet : (pc, tablette et telephone)
 
 
-[Réserver un bar]
+== créer un compte
 
-== Accéder au site Epsi&Wis Afterwork
-- Ouvrir un navigateur web (Google Chrome, Firefox, Safari, etc.).
-- Aller sur le site officiel : www.epsi&wisAfwk.lab
-- Si vous préfèrez utiliser les applications mobile, elle pourra être disponible sur iOS et Android, (en cours de developement)
+=== Accéder au site AfterWork Home
 
-== Créer un compte ou se connecter
-// [Voir Créer un Compte]
+Ouvrez votre navigateur internet (Google Chrome, Firefox, Safari, etc.). Dans la barre d'adresse, entrer «http://localhost/afterworkproject/afterwork.php» (pour la version locale après importation de la base de données dans PhpMyAdmin) et appuyez sur "Entrée".
 
-== Rechercher un bar
--Dans la page d'accueil, utilisez la barre de recherche pour entrer :
-- Le nom du bar si vous le connaissez.
--  Son emplacement 
+ - Sur la page d'accueil du site AfterWork Home, repèrez le bouton "Connexion".
 
-== Filtrer les résultats
-Vous trouverez à côté de la barre de recherche des filtres pour affiner votre recherche :
--	Type de Boisson (allemande , norvegienne , italienne , française etc.)
--	Le prix
--	Disponibilité : Sélectionner une date et un créneau horaire.
-// 3.	Voir les avis : Tu peux consulter les avis des autres utilisateurs pour t’aider à choisir le meilleur établissement. (facultatif)
+===  Commencer la création de compte
 
-== Sélectionner un bar
+Cliquez sur "Connexion".
 
-- Une fois que vous avez trouvé un bar qui vous intéresse, cliquez sur le nom de l’établissement pour accéder à la page détaillée.
-- Sur cette page, vous trouverez :
--	Photos du bar
--	Menu ou description des boissons
--	Horaires des jours disponibles.
--	Avis des clients.
+Ensuite, choisisez "Créer un compte" dans la fenêtre qui apparaît.
 
-== Choisir la date et l'heure de la réservation
+=== Remplir les informations du compte
 
-1.	Sur la page de l'établissement, vous trouverez un encadré avec les options pour réserver une table.
--	La date à laquelle vos voulez réserver.
--	Le nombre de personnes.
--	L'heure souhaitée parmi les créneaux disponibles.
- Si l'établissement propose plusieurs créneaux horaires,  choisisez celui qui vous convient le mieux.
+==== Formulaire de création
 
-== Confirmer la réservation
+Un formulaire va s'afficher où vous devrez renseigner les informations suivantes :
 
-1.	Une fois les détails sélectionnés, cliquez sur "Réserver".
-2.	Vérification des informations :
- - Epsi&wis Afterwork affichera un récapitulatif de votre réservation.
- - Assurez-vous que tout est correct (date, heure, nombre de personnes, bar).
-3.	Confirmation : Cliquer sur "Confirmer ma réservation".
-4. vous recevrez alors un e-mail de confirmation à l'adresse associée à votre compte. Dans cet e-mail, vous trouverez les détails de la réservation, ainsi que le lien pour annuler ou modifier la réservation si besoin.
+* Nom complet (Prénom et Nom).
+
+* Adresse e-mail (veillez à utiliser une adresse valide pour la confirmation, dans le cas contraire un message d'erreur sera renvoyé).
+
+* Mot de passe
+
+Cliquez sur "Créer un compte" pour valider vos informations.
+
+== Connexion 
+
+Après la validation cliquez sur "Connexion" puis saisissez l'adresse e-mail et le mot de passe que vous avez choisi pour pour vous connecter.
 
 
-// [Mettre en favoris]
+== Réserver un bar
 
-// == Accéder à Epsi&wis Afterwork
-// Ouvrez un navigateur (ou l'application mobile).
-//     allez sur le site : www.epsi&wisAfwk.lab ou ouvrez l'application.
+Accédez au site AfterWork Home depuis votre navigateur favori et connectez vous. Des bars sont disponibles sur la page d'accueil.
 
-// == Se connecter sur votre compte
+Une fois que vous avez trouvé un bar qui vous intéresse, cliquez sur le nom de l’établissement pour accéder à la page détaillée.
 
-//     Cliquez sur "Connexion" , ou dans l’application.
-//     Entrez vos identifiants (e-mail et mot de passe).
+* description des boissons
 
-//     [Note] : il faut être connecté(e) sur votre compte et avoir un accès à internet pour pouvoir ajouter des bars en favoris.
+* Horaires des jours disponibles
 
-// == Rechercher un bar
+* Menu de reservation
 
-//     Utilisez la barre de recherche pour trouver le bar que vous voulez ajouter en favoris :
-//         vous pouvez entrer le nom, emplacement ou type de boissons.
-//     Parcourez les résultats et cliquez sur le bar de votre choix pour accéder à sa fiche détaillée.
+=== Choisir la date et l'heure de la réservation
 
-// == Ajouter aux favoris
+Sur la page de l'établissement, vous trouverez un encadré avec les options pour réserver une table.
 
-//     Sur la page du bar, vous verrez normalement une icône en forme de cœur à proximité du nom de l'établissement.
+* La date à laquelle vos voulez réserver.
+* Le nombre de personnes.
+* L'heure souhaitée. 
 
-//     Cliquer sur l'icône en forme de cœur pour ajouter le bar à la liste de favoris.
 
-// == Accéder aux favoris
-// Pour voir vos bars favoris :
-//         Sur la version web : Cliquer sur votre profil, puis sélectionner l'option "Mes favoris" dans le menu déroulant.
-//         Sur l'application mobile : Accèder à votre profil en cliquant sur l'icône de votre compte, puis cliquer sur "Favoris".
-// vous pouvez y retrouver tous les bars que vous avez ajoutés en favoris, et les consulter ou réserver plus facilement.
+===  Confirmer la réservation
 
+Une fois les détails sélectionnés, cliquez sur "Réserver".
+
+Vous serez renvoyé vers la page de votre profil qui contient les reservations de l'utilisateur.
 
 
 
