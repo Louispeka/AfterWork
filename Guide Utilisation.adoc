@@ -1,4 +1,4 @@
-Guide utilisation :
+
 = Guide Utilisation :
 
 :description: 
@@ -22,8 +22,8 @@ Avant d'avançer plus loin , veuiller avoir :
 
 [créer un compte]
 
-== Accéder au site a Epsi&Wis AfterWork Home
-- Ouvrez votre navigateur internet (Google Chrome, Firefox, Safari, etc.). Dans la barre d'adresse, entrer « www.epsi&wisAfwk.lab » et appuyez sur "Entrée".
+== Accéder au site AfterWork Home
+- Ouvrez votre navigateur internet (Google Chrome, Firefox, Safari, etc.). Dans la barre d'adresse, entrer «http://localhost/afterworkproject/afterwork.php» (pour la version locale après importation de la base de données dans PhpMyAdmin) et appuyez sur "Entrée".
  - Sur la page d'accueil de epsi&wisafterwork, repèrez le bouton "Connexion" ou "Créer un compte
 
 == Commencer la création de compte
